@@ -1,3 +1,5 @@
+<style>
+</style>
 <?php include('functions.php'); ?>
 <header class="container-fluid alert-warning">
 	<nav class="navbar navbar-full navbar-light ">

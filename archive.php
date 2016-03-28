@@ -15,7 +15,7 @@
 
 		include('main-archive.php');
 
-		include('footer.php');
+		//include('footer.php');
 	?>
   </body>
 </html>
