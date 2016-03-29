@@ -8,14 +8,22 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" crossorigin="anonymous">
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"  crossorigin="anonymous"></script>
   </head>
   <body>
-	<?php
-		include('header.php');
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-sm-3">
+        <?php include('header-aside.php'); ?>
+      </aside>
 
-		include('main-archive.php');
-
-		//include('footer.php');
-	?>
+      <main class="col-sm-9">
+        <?php include('main-archive.php'); ?>
+      </main>
+    </div>
+  </div>
+	
   </body>
 </html>

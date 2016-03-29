@@ -8,6 +8,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" crossorigin="anonymous">
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"  crossorigin="anonymous"></script>
   </head>
   <body>
 	<?php
