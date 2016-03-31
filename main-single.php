@@ -1,37 +1,14 @@
-<main class="container-fluid">
-	<div class="row">
-		<aside class="col-sm-3 alert-success">
-			<br><br>
-			<h2>Sidebar</h2>
-			<?php
-			display_aside_menu(5);
-			?>
-		</aside>
+<figure class="card card-inverse">
+    <img class="img-fluid" src="assets/images/hero-unit.jpg" data-src="assets/images/hero-unit.jpg" alt="Card image">
+    <figcaption class="card-img-overlay text-xs-center">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </figcaption>
+</figure>
 
-		<section class="col-sm-9 alert-info">
-			<article>
-				<header><h1>Single Article Heading</h1></header>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<br>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</article>
-		</section>
-	</div>
-</main>
+<h2>Single Heading</h2>
+<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro pariatur repudiandae adipisci sed iste laudantium quia, eveniet unde, voluptatum quis commodi inventore labore, modi eius nobis architecto nihil dicta possimus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati vitae modi, veniam rerum. Architecto officia adipisci voluptates ullam est, reprehenderit, at beatae vitae maxime cum assumenda id, recusandae sequi atque.

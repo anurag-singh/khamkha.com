@@ -3,6 +3,7 @@
 	<nav class="navbar navbar-full navbar-light ">
 	  <a class="navbar-brand" href="#">Dselva Infotech</a>
 		<br>
+		<hr>
 	  
 	
 

@@ -1,0 +1,10 @@
+// out: style.css
+aside {
+    background-color: aqua;
+    footer li:not(: nth-child(3n+3))::after {
+        color: rgba(255, 255, 255, 0.4);
+        content: "|";
+        display: inline-block;
+        margin: 0 1rem;
+    }
+}
