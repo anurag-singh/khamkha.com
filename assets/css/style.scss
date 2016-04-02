@@ -1,0 +1,48 @@
+aside {
+    background-color: #f7f7f7;
+    nav ul li {
+        padding: 10px 25px;
+        border-bottom: 1px solid #ddd;
+        &:last-child {
+            border: none;
+        }
+    }
+    footer ul li {
+        &:after {
+            margin-left: 15px;
+            content: "|";
+        }
+        &:last-child:after {
+            content: "";
+        }
+    }
+}
+
+main {
+    figure {
+        figcaption {
+            ul.postmetadata {
+                width: 96%;
+                position: absolute;
+                bottom: 0;
+                opacity: 0.6;
+                filter: alpha(opacity=60);
+                &:hover {
+                    opacity: 1.0;
+                    filter: alpha(opacity=100);
+                }
+                li {
+                    color: #000;
+                    padding: 0 5px 5px;
+                    &:after {
+                        margin-left: 15px;
+                        content: "|";
+                    }
+                    &:last-child:after {
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+}
